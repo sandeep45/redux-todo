@@ -1,8 +1,17 @@
 import React from 'react';
+import Link from './Link.js';
+
+import AddTodo from "../containers/AddTodo";
+import VisibleTodoList from "../containers/VisibleTodoList.js";
+import Footer from "./Footer";
 
 const App = (props) => {
   return(
-    <h1>Hello World</h1>
+    <div>
+      <AddTodo />
+      <VisibleTodoList />
+      <Footer />
+    </div>
   )
 }
 

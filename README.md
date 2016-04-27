@@ -10,7 +10,7 @@ touch README.md
 
 ````
 npm install --save react react-dom redux react-redux keymirror axios css-loader style-loader file-loader url-loader
-npm install --save-dev webpack babel webpack-dev-server babel-loader babel-preset-react babel-preset-es2015 babel-preset-stage-1 redux-devtools
+npm install --save-dev webpack babel webpack-dev-server babel-loader babel-preset-react babel-preset-es2015 babel-preset-stage-1 redux-devtools react-addons-test-utils
 ````
 
 #### Setup Webpack
@@ -170,3 +170,11 @@ chrome-user-data
     "start": "webpack-dev-server"
 }
 ````
+
+#### other improvments
+
+namespace all the actions
+a constants file
+a sample component
+
+Add propTypes to FilterLink.js and give pull request
